@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package format="3">
+  <name>demo_python_pkg</name>
+  <version>0.0.0</version>
+  <description>Introductory ROS 2 Python nodes and offline threading examples.</description>
+  <maintainer email="141168900+addrun@users.noreply.github.com">addrun</maintainer>
+  <license>Apache-2.0</license>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+  <exec_depend>rclpy</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+</package>
